@@ -1,0 +1,88 @@
+.nav {
+  padding:20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-evenly;
+  align-items: center;
+
+}
+:global(.light) .nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-evenly;
+  align-items: center;
+  background-color: darkgrey;
+  font-weight: 700;
+}
+
+
+.link {
+  color: rgb(173, 192, 199);
+  text-decoration: none;
+  padding: 5px;
+
+}
+
+:global(.light) .link {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  padding: 5px;
+
+}
+
+.btn:hover,
+.link:hover {
+  color: white;
+  transform: scale(1.01);
+  padding: 5px;
+
+
+
+}
+
+:global(.light) .btn:hover,
+:global(.light) .link:hover {
+  color: rgb(0, 0, 0);
+  transform: scale(1.01);
+
+}
+
+.active {
+  color: white;
+  color: rgb(46, 200, 102);
+  text-decoration: none;
+  padding: 5px;
+
+}
+:global(.light) .active {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  padding: 5px;
+
+
+}
+
+.btn {
+
+  color: rgb(173, 192, 199);
+  background: none;
+  border: 0;
+  font: inherit;
+  line-height: normal;
+  border: solid white 1px; 
+  border-radius: 8px;
+
+ 
+}
+
+:global(.light) .btn {
+  color: rgb(0, 0, 0);
+  background: none;
+  border: 0;
+  font: inherit;
+  line-height: normal;
+  border: solid black 1px; 
+  border-radius: 8px;
+}
+
+

@@ -1,0 +1,85 @@
+.imagen {
+  max-width: 220px;
+  border-radius: 8px;
+
+}
+.dentista {
+
+  border: solid 1px rgb(58, 58, 64);
+  border-radius: 10px;
+  background-color: rgb(29, 36, 50);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+ 
+}
+
+
+:global(.light) .dentista {
+
+  border-radius: 8px;
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+
+}
+
+
+
+.link {
+  color: rgb(46, 200, 102);
+  text-decoration: none;
+  padding: 5px 10px;
+
+}
+
+:global(.light) .link{
+  color: #7E8E95;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+
+
+
+
+.link:hover {
+  transform: scale(1.1);
+  border-radius: 5px;
+}
+
+.button {
+  background: none;
+  font: inherit;
+  line-height: normal;
+  border: 0;
+  color: rgb(46, 200, 102);
+  text-decoration: none;
+}
+:global(.light) .button {
+  background:whitesmoke;
+  font: inherit;
+  line-height: normal;
+  border-radius: 5px;
+  color: #344648;
+  text-decoration: none;
+}
+
+.button:hover {
+  transform: scale(1.1);
+  border-radius: 10px;
+}
+
+
+.h3,
+.p {
+  margin: 0px;
+  padding-top: 8px;
+}
+.p {
+  padding-bottom: 8px;
+}

@@ -1,0 +1,29 @@
+.contenedor{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  
+   
+}
+
+
+.dentistas{
+    max-width: 90vw;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+   
+}
+
+
+.hidden{
+    visibility: hidden;
+
+}
+.title{
+    margin: 10;
+}

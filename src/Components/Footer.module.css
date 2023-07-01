@@ -1,0 +1,60 @@
+.div{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    color: whitesmoke;
+    min-height: 100px;
+    background-color:  rgb(14,20,30);
+    border-top: solid 1px rgb(58,58,64)
+}
+
+
+
+:global(.light) .div{
+    transition: all ease 0.3s;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    color: #dce3e4;
+    min-height: 100px;
+    background-color: whitesmoke;
+    border-top: solid 1px rgb(58,58,64)
+}
+
+
+.icons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 1rem;
+    filter: brightness(0);
+  }
+  
+  .iconsDark{
+    filter: brightness(0) invert(1);
+  }
+  
+  .dhLogo{
+    max-width: 30%;
+    max-height: min-content;
+  }
+  
+  .icon {
+    max-width: 2rem;
+    height: auto;
+  }
+  .div.footer {
+    padding: 2rem 0;
+
+  }
+  .top {
+    text-transform: uppercase;
+    padding: 1rex;
+    background: #f21d1d;
+    border: none;
+    color: white;
+    width: 100%;
+  }
