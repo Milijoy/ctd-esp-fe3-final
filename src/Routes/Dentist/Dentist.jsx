@@ -30,10 +30,10 @@ function Dentist() {
         <>
           <h1>Dentist Information</h1>
           <div className={styles.dentista}>
-            <h3>Name: {dentista.name}</h3>
-            <h3>Email: {dentista.email}</h3>
-            <h3>Phone: {dentista.phone}</h3>
-            <h3>Web: {dentista.website}</h3>
+            <p>Name: {dentista.name}</p>
+            <p>Email: {dentista.email}</p>
+            <p>Phone: {dentista.phone}</p>
+            <p>Web: {dentista.website}</p>
             <button className={styles.button} onClick={()=>{navigate(-1)}}>Return</button>
           </div>
         </>

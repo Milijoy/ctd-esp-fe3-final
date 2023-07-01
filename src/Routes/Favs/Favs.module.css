@@ -1,16 +1,15 @@
+
 .contenedor{
     display: flex;
     flex-direction: column;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
-    padding-bottom: 20px;
     text-align: center;
-  
+    padding: 10px;
 }
-
 .dentistas{
     display: flex;
-    flex-wrap:flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     gap: 20px;
